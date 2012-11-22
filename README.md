@@ -159,7 +159,7 @@ console.log(htmlOutput);
 Just include the treeIt module at the beginning of the snippet above:
 
 ```js
-var treeIt = require('treeIt');
+var treeIt = require('treeit');
 // same as browser (see above)
 ```
 
