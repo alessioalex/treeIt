@@ -1,0 +1,7 @@
+.git*
+docs/
+examples/
+test/
+.DS_Store
+.jshintrc
+*.log

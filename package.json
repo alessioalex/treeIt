@@ -1,0 +1,27 @@
+{
+    "name": "treeIt"
+  , "description": "Convert your JSON object to HTML without having to modify it in some way."
+  , "version": "0.0.1"
+  , "homepage": "http://github.com/alessioalex/treeIt"
+  , "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com>"
+  , "main": "./treeIt.js"
+  , "keywords": ["json", "html", "convert", "toHTML", "jsonToHtml"]
+  , "repository": {
+      "type" : "git"
+    , "url"  : "https://github.com/alessioalex/treeIt.git"
+  }
+  , "engines": {
+      "node": ">= 0.4.0"
+  }
+  , "devDependencies": {
+      "mocha"     : "1.1.x"
+    , "should"    : "1.2.x"
+    , "uglify-js" : "1.2.x"
+    , "jshint"    : "0.7.x"
+  }
+  , "scripts": {
+      "test"    : "node_modules/.bin/mocha --slow 150 --timeout 1s --reporter spec --require should test/tests.js"
+    , "build"   : "npm run-script jshint && node src/build.js"
+    , "jshint"  : "node_modules/.bin/jshint src/treeIt.js"
+  }
+}
