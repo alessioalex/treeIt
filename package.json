@@ -1,7 +1,7 @@
 {
     "name": "treeit"
   , "description": "Convert your JSON object to HTML without having to modify it in some way."
-  , "version": "0.0.2"
+  , "version": "0.0.3"
   , "homepage": "http://github.com/alessioalex/treeIt"
   , "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com>"
   , "main": "./treeIt.js"
