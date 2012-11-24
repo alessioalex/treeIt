@@ -127,7 +127,7 @@ http://jsbin.com/ajakam
 Node - install it with NPM:
 
 ```bash
-$ npm install treeIt
+$ npm install treeit
 ```
 
 Browser - include the script in the page:
