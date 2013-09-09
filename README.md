@@ -120,7 +120,7 @@ treeIt.generate(myJsObj);
 
 ## Quick demo in the browser
 
-http://jsbin.com/ajakam
+http://jsbin.com/OQUrAxa
 
 ## Installation
 
